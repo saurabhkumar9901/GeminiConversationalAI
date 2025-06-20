@@ -1,5 +1,6 @@
 # 🧠 Conversational AI Assistant (Google Ecosystem-Powered)
-This project is a Conversational AI Assistant built entirely on Google's ecosystem of APIs, delivering a seamless voice-based user experience. It combines natural speech recognition, intelligent language understanding, and voice response — all accessible via an intuitive Gradio interface.
+This project is a Conversational AI Assistant built entirely on Google's ecosystem of APIs, delivering a seamless voice-based user experience. It combines natural speech recognition, intelligent language understanding, and voice response — all accessible via an intuitive Gradio interface. Demo Video link: ```https://youtu.be/RHRuy1XxFa4```
+
 
 ## 1. Google Speech-to-Text API
 Captures and transcribes real-time microphone input using Google’s high-accuracy STT (Speech-to-Text) engine — ensuring fast and robust voice command recognition.
