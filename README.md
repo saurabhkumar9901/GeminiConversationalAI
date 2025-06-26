@@ -58,4 +58,14 @@ Cntrl+Shift+P to select the interpretor and choose the environment. Your newly c
    3. Make sure to enable these above API's for the same project you are using in the Google cloud console
 3. Create a ```.env``` file in the working/project directory with the following ```GOOGLE_API_KEY= your-aistudio-google-com-key-here```
   
-
+# N8N and ReTell AI
+1. Make your free account on ```https://www.retellai.com``` and ```https://n8n.io/```
+2. Go to n8n.io login and create a workspace after creating the workspace import the import_me_in_n8n.json file in this GitHub repository
+3. Copy the Webhook trigger production URL in the clipboard
+4. Go to retellai.com and create an agent
+5. Under Functions tab add the details as following:
+   1. API endpoint: Select method POST and enter the Webhook trigger production URL
+   2. Parameters: Select Form and give name "prompt" and under description "user's message" and select required.
+   3. Check the box Speak after execution
+6. Execute your workflow in n8n
+7. Click test agent in retellai
